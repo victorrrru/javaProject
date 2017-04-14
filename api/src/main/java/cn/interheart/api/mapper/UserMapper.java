@@ -7,7 +7,7 @@ import java.util.List;
 @Repository
 public interface UserMapper {
 
-    int deleteByPrimaryKey(Integer id);
+    int deleteByPrimaryKey1(Integer id);
 
     int insert(User record);
 
